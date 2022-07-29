@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Color Flipper App</title>
+</head>
+<body>
+        <header>
+            <div class="nav">
+                <div class="logo">
+                    COLOR FLIPPER
+                </div>
+                <ul id="list">
+                    <li ><input type="search" placeholder="Past code here to show"></li>
+                    <li id="item-list" ><a  class="active item-link" href="index.html">SIMPLE COLOR</a></li>
+                    <li id="item-list" ><a class="item-link" href="infinite_color_generate.html">HEX COLOR</a></li>
+                </ul>
+            </div>
+        </header>
+         <div class="container">
+            <div class="label">
+                Color Flipper App
+            </div>
+            <div class="code" id="code">
+              <p class="cpText">Bckground color is : <b><span class="colorGen" id="color-gen">rgb(234,235,255)</span></b><button  id="copy-btn"> <i  class="fa-regular fa-copy btn-copy "></i></button></p>
+            </div>
+            <button class="btn-gen" id="btn-gen">Generate Simple</button>
+         </div>
+         <footer>
+            Developed by <a href="#"><b>Awais Ahmad</b></a>
+         </footer>
+         <script src="js/app.js"></script>
+         <script src="js/simpleColorFlipper.js"></script>
+</body>
+</html>
